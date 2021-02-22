@@ -1,73 +1,87 @@
 # redux-bookstore-CMS
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this project, it is required to build a very dynamic responsive React application.
+This project is an app that will help in organizing and managing bookstore.
+## Live Demo
+​
+[Live Demo Link](https://redux-bookstore-cms.herokuapp.com/)
+### Project Specification
 
+- Use create-react-app to initialize a new React app
+- Add prop-types using npm for typechecking props.
+- Add the necessary Redux packages to your project.
+- Run the application with npm start and make sure that everything works correctly.
+- Use [create-react-app-buildpack](https://github.com/mars/create-react-app-buildpack) to deploy the app to Heroku
 
+### Built With
 
-## Available Scripts
+- Node.js
+- React
+- React-DOM
+- React-Create-App
+- Redux
+- npm
+- CSS
+- ES6
+- eslint
+- stylelint
 
-In the project directory, you can run:
+## Getting Started
+To get a local copy up and running follow these steps:
 
-### `npm start`
+### Prerequisites
 
-Runs the app in the development mode.\
+npm
+Node
+create-react-app
+### Setup
+
+- Clone the repository by running the code `git clone https://github.com/uimarshall/redux-bookstore-cms`
+- cd into `redux-bookstore-cms` folder
+- Run `npm install`.
+- Run `npm start` from your command line to open your app in the browser.
+
+Run the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Sign up on Heroku
+- follow instruction to deploy on the Heroku: 
 
-### `npm run build` fails to minify
+[Deploy on Heroku](https://github.com/mars/create-react-app-buildpack).
+## Authors
+#### 👤 **Marshall AKPAN**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Github: [@uimarshall](https://github.com/uimarshall)
+- Twitter: [@uimarshall](https://twitter.com/uimarshall)
+- Linkedin: [uimarshall](https://www.linkedin.com/in/marshall-akpan-19745526/)
+
+​
+## �� Contributing
+​
+Contributions, issues and feature requests are welcome!
+​
+Feel free to check the [issues page](https://github.com/uimarshall/redux-bookstore-cms/issues).
+## Show your support
+
+Give a ⭐️ if you like this project!
+​
+
+## Acknowledgments
+
+- The Odinproject
+- Microverse TSE
+- Freecodecamp
+## �� License
+
+This project is [MIT](lic.url) licensed.
+
+
+
+
+
+
