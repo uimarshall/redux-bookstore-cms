@@ -1,15 +1,20 @@
 import React from 'react';
-// import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
-const Book = () => (
-  <div>
-    <p>Books</p>
+const Book = ({ book }) => (
+  <>
+    <tr key={book.id}>
+      <td>{book.id}</td>
+      <td>{book.title}</td>
+      <td>{book.category}</td>
+    </tr>
 
-  </div>
+  </>
 );
 
-// Book.propTypes = {
+Book.propTypes = {
 
-// }
+  book: PropTypes.instanceOf(Object).isRequired,
+};
 
 export default Book;
