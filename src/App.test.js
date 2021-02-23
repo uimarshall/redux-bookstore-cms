@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
-import BooksList from './containers/BooksList';
+import BooksForm from './containers/BooksForm';
 
 test('renders learn react link', () => {
-  render(<BooksList />);
-  const linkElement = screen.getByText(/Title/i);
+  render(<BooksForm />);
+  const linkElement = screen.getByText(/Submit/i);
   expect(linkElement).toBeInTheDocument();
 });
