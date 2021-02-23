@@ -3,6 +3,6 @@ import BooksList from './containers/BooksList';
 
 test('renders learn react link', () => {
   render(<BooksList />);
-  const linkElement = screen.getByText(/booklists/i);
+  const linkElement = screen.getByText(/Title/i);
   expect(linkElement).toBeInTheDocument();
 });
