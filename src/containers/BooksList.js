@@ -34,22 +34,6 @@ const BooksList = ({
           ))}
         </div>
       </main>
-      {/* <CategoryFilter changeFilter={handleFilterChange} />
-      <table>
-        <thead>
-          <tr>
-            <th>Book ID</th>
-            <th>Title</th>
-            <th>Category</th>
-          </tr>
-
-        </thead>
-        <tbody>
-          {filteredBookCat && filteredBookCat.map(book => (
-            <Book book={book} key={book.id} removeBook={() => handleRemoveBook(book)} />
-          ))}
-        </tbody>
-      </table> */}
 
     </div>
   );
