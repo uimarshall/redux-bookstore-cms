@@ -28,7 +28,7 @@ const BooksList = ({
 
       </Header>
       <main className="bg-grey">
-        <div className="center max-width-90 bookSection">
+        <div className="center max-width-90 book-section">
           {filteredBookCat && filteredBookCat.map(book => (
             <Book book={book} key={book.id} removeBook={() => handleRemoveBook(book)} />
           ))}
