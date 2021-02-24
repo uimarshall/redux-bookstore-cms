@@ -14,7 +14,7 @@ const Book = ({ book, removeBook }) => {
       </td>
     </tr>
   ) : (
-    <tr><td>There is no book in this category as at now</td></tr>
+    null
   );
 
   return (
