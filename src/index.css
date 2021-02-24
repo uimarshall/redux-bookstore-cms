@@ -359,8 +359,6 @@ select {
   padding: 12px;
 }
 
-
-
 /* Small screens less than 720px */
 @media screen and (max-width: 720px) {
   .form-title {
