@@ -2,6 +2,10 @@
 
 In this project, it is required to build a very dynamic responsive React application.
 This project is an app that will help in organizing and managing bookstore.
+
+> ​
+> ![screenshot](public/bookstore.png)
+>
 ## Live Demo
 ​
 [Live Demo Link](https://redux-bookstore-cms.herokuapp.com/)

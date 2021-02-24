@@ -8,6 +8,7 @@ body {
   height: 10vmin;
   margin-left: auto !important;
   pointer-events: none;
+  color: #0290ff;
 }
 
 h1,
