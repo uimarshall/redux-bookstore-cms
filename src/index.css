@@ -1,3 +1,7 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 /* App Component */
 
 .user-img {
@@ -125,12 +129,8 @@ button:disabled {
 /* BookList */
 .app-title {
   color: #0692ff;
-
-  /* font-size: 16px; */
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-
-  /* flex-basis: 80%; */
   font-size: 8vmin;
 }
 
@@ -271,12 +271,6 @@ button:disabled {
   .book {
     flex-wrap: wrap;
   }
-
-  /* .app-title {
-    flex-basis: 80%;
-    font-size: 8vmin;
-    text-align: right;
-  } */
 
   #left {
     flex-basis: 100%;
