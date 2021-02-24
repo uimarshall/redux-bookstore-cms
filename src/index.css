@@ -1,21 +1,3 @@
-body {
-  margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 /* App Component */
 
 .user-img {
@@ -143,7 +125,13 @@ button:disabled {
 /* BookList */
 .app-title {
   color: #0692ff;
-  font-size: 4vmin;
+
+  /* font-size: 16px; */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+
+  /* flex-basis: 80%; */
+  font-size: 8vmin;
 }
 
 .book-section {
@@ -273,11 +261,11 @@ button:disabled {
     flex-wrap: wrap;
   }
 
-  .app-title {
+  /* .app-title {
     flex-basis: 80%;
     font-size: 8vmin;
     text-align: right;
-  }
+  } */
 
   #left {
     flex-basis: 100%;
@@ -311,4 +299,18 @@ button:disabled {
     text-align: center;
     padding-left: 0;
   }
+}
+
+/* Category Filter */
+select {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0.35em;
+  color: #555;
+  cursor: pointer;
+  flex-basis: 20%;
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 2em;
+  padding: 12px;
 }
