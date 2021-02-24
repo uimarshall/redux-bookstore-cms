@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 import { removeBook, changeFilter } from '../actions/index';
 import Book from '../components/Book';
 import CategoryFilter from '../components/CategoryFilter';
+import Header from '../components/Header';
 
 const BooksList = ({
   books, removeBook, changeFilter, filter,
@@ -22,7 +23,18 @@ const BooksList = ({
 
   return (
     <div>
-      <CategoryFilter changeFilter={handleFilterChange} />
+      <Header>
+        <CategoryFilter changeFilter={handleFilterChange} />
+
+      </Header>
+      <main className="bg-grey">
+        <div className="center max-width-90 bookSection">
+          {filteredBookCat && filteredBookCat.map(book => (
+            <Book book={book} key={book.id} removeBook={() => handleRemoveBook(book)} />
+          ))}
+        </div>
+      </main>
+      {/* <CategoryFilter changeFilter={handleFilterChange} />
       <table>
         <thead>
           <tr>
@@ -37,7 +49,7 @@ const BooksList = ({
             <Book book={book} key={book.id} removeBook={() => handleRemoveBook(book)} />
           ))}
         </tbody>
-      </table>
+      </table> */}
 
     </div>
   );
