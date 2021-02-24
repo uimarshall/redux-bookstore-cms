@@ -16,12 +16,126 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+/* App Component */
+
+.user-img {
+  height: 10vmin;
+  margin-left: auto !important;
+  pointer-events: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.main-bg {
+  padding: 8em 4em;
+}
+
+.container {
+  max-width: 1400px;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.max-width-90 {
+  max-width: 90%;
+}
+
+.all-caps {
+  text-transform: uppercase;
+}
+.text-grey { color: #888; }
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-grey {
+  background-color: #fafafa;
+}
+
+.bg-dark-grey {
+  background-color: #f3f4f8;
+}
+
+.border-top {
+  border-top: 1px solid #dfdfdf;
+  padding-top: 1.5em;
+}
+
+.round-top {
+  border-radius: 0.3em 0.3em 0 0;
+}
+
+.round-bottom {
+  border-radius: 0 0 0.3em 0.3em;
+}
+
+button { cursor: pointer; }
+
+button:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.m-b {
+  margin-bottom: 4px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.center {
+  margin: auto;
+}
+
+.flex-row {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.flex-row * {
+  margin: 5px 5px 5px 5px;
+  padding: 5px  0 5px 0;
+}
+
+.box-shadow {
+  box-shadow: 0 42px 20px #ddd;
+}
+
+.App {
+  overflow: hidden;
+}
+
+/* Small screens less than 720px */
+@media screen and (max-width: 720px) {
+  .flex-row * {
+    margin: 5px 0;
+  }
+
+  .user-img {
+    order: 2;
+  }
+
+  .max-width-90 {
+    width: 99%;
+    margin: auto;
+  }
+
+  .main-bg {
+    padding: 0;
+  }
+
+  .container {
+    max-width: none;
+  }
 }

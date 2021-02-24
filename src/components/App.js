@@ -5,8 +5,15 @@ import BooksList from '../containers/BooksList';
 function App() {
   return (
     <div className="App" dataset-id="main">
-      <BooksList />
-      <BooksForm />
+      <div className="main-bg bg-dark-grey">
+        <div className="container center">
+          <BooksList />
+          <BooksForm />
+
+        </div>
+
+      </div>
+
     </div>
   );
 }
