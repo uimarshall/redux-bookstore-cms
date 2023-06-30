@@ -5,10 +5,12 @@ This project is an app that will help in organizing and managing bookstore.
 
 > ​
 > ![screenshot](public/bookstore.png)
->
+
 ## Live Demo
+
 ​
-[Live Demo Link](https://redux-bookstore-cms.herokuapp.com/)
+[Live Demo Link](https://bookstore-cms-o5ib.onrender.com/)
+
 ### Project Specification
 
 - Use create-react-app to initialize a new React app
@@ -31,6 +33,7 @@ This project is an app that will help in organizing and managing bookstore.
 - stylelint
 
 ## Getting Started
+
 To get a local copy up and running follow these steps:
 
 ### Prerequisites
@@ -38,6 +41,7 @@ To get a local copy up and running follow these steps:
 npm
 Node
 create-react-app
+
 ### Setup
 
 - Clone the repository by running the code `git clone https://github.com/uimarshall/redux-bookstore-cms`
@@ -53,11 +57,15 @@ You will also see any lint errors in the console.
 
 ### Deployment
 
-- Sign up on Heroku
-- follow instruction to deploy on the Heroku: 
+- Sign up on Heroku or Render
+- follow instruction to deploy on the Heroku or Render:
 
 [Deploy on Heroku](https://github.com/mars/create-react-app-buildpack).
+
+[Deploy on Render](https://render.com/docs).
+
 ## Authors
+
 #### 👤 **Marshall AKPAN**
 
 - Github: [@uimarshall](https://github.com/uimarshall)
@@ -65,11 +73,14 @@ You will also see any lint errors in the console.
 - Linkedin: [uimarshall](https://www.linkedin.com/in/marshall-akpan-19745526/)
 
 ​
+
 ## �� Contributing
+
 ​
 Contributions, issues and feature requests are welcome!
 ​
 Feel free to check the [issues page](https://github.com/uimarshall/redux-bookstore-cms/issues).
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
@@ -81,13 +92,7 @@ Give a ⭐️ if you like this project!
 - Microverse TSE
 - Freecodecamp
 - <div>Icons made by <a href="https://www.flaticon.com/authors/kiranshastry" title="Kiranshastry">Kiranshastry</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-  
+
 ## �� License
 
 This project is [MIT](lic.url) licensed.
-
-
-
-
-
-
